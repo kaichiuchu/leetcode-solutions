@@ -19,8 +19,10 @@ are contained within the `solutions` directory.
 
 ## Benchmarking
 
-For example, if you want to run the benchmark for the Two Sum problem, nagivate
-to the `solutions/two_sum` directory and execute `benchmark.py`.
+For example, if you want to run the benchmark for the Two Sum problem, navigate
+to the `solutions/two_sum` directory and execute `benchmark.py`. This will
+print out how long a solution took in milliseconds with test data from
+LeetCode.
 
 ## Testing
 
