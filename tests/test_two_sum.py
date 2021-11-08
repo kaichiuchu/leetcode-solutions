@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # leetcode-solutions - Solutions to LeetCode problems in Python
 #
 # Written in 2021 by Michael Rodriguez aka kaichiuchu <mike@kaichiuchu.dev>
@@ -15,10 +16,7 @@ from solutions.two_sum import solution
 
 
 class TestTwoSum(unittest.TestCase):
-    """Tests for the expected values from"""
-
     def test_dict_solution(self):
-        """Tests the dictionary solution."""
         example_one = solution.DictSolution([2, 7, 11, 15], 9)
         example_two = solution.DictSolution([3, 2, 4], 6)
         example_three = solution.DictSolution([3, 3], 6)
